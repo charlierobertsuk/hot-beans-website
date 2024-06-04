@@ -1,0 +1,64 @@
+.logo{
+  margin-top: 50px;
+  margin-bottom: 200px;
+}
+
+.bean {
+  width: 200px;
+  height: 250px;
+  position: relative;
+  margin: 0 auto;
+  background-color: #8B4513;
+  border-radius: 50%;
+}
+
+.fire{
+  margin: 0 auto;
+  position: relative;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-top-left-radius: 50%;
+  transform: rotate(-45deg) scale(1.5,1.5);
+}
+
+.yellow {
+  bottom: 5px;
+  width: 60px;
+  height: 60px;
+  background: #ffd700;
+  box-shadow: 0px 0px 8px 4px #ffd700;
+}
+
+.orange {
+  bottom: -50px;
+  width: 80px;
+  height: 80px;
+  background: #ffa500;
+  box-shadow: 0px 0px 8px 4px #ffa500;
+}
+
+.red {
+  bottom: -130px;
+  width: 100px;
+  height: 100px;
+  background: #ff4500;
+  box-shadow: 0px 0px 8px 4px #ff4500;
+}
+
+.title{
+  font-size: 150px;
+  font-family: bebas neue;
+  line-height: 120px;
+  display: table;
+  margin: 0 auto;
+  background-image: linear-gradient(90deg, red, orange);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 30px;
+}
+
+@media only screen and (min-width: 1700px) {
+  .logo {
+    margin-top: 50px;
+  }
+}

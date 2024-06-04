@@ -1,0 +1,20 @@
+.animated-background-container {
+    background: linear-gradient(300deg,#171b21, #00f0f5,#171b21, #bf51ff,#171b21, #d52c89,#171b21, #00f0f5);
+    background-size: 1000% 1000%;
+    animation: FlowingBackground 150s ease infinite;
+    -webkit-animation: FlowingBackground 150s ease infinite;
+    -moz-animation: FlowingBackground 150s ease infinite;
+    -o-animation: FlowingBackground 150s ease infinite;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Push it to the background */
+}
+/* Bacicaly the angle of which the colours move */
+@keyframes FlowingBackground {
+    0% { background-position: 10% 0%; }
+    50% { background-position: 91% 100%; }
+    100% { background-position: 10% 0%; }
+}

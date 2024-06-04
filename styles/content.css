@@ -1,0 +1,146 @@
+body {
+    background-color: #000000;
+    margin: 0; 
+    padding: 0; 
+    overflow-x: hidden; /* Hide horizontal overflow */
+    font-family: source code pro;
+}
+
+p {
+    font-size: 25px;
+}
+
+
+.header-box {
+    width: 80%;
+    height: 50px;
+    margin: 0 auto;
+    background-color: #353f4c;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    display: flex;
+    justify-content: space-around;    
+}
+
+.header-box a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: x-large;
+    float: right;
+    text-align: center;
+    padding: 6px;
+    line-height: 20px;
+    border-radius: 4px;
+}
+
+.header-box a :hover{
+    color: #00f0f5;
+    background-color: #d52c89;
+}
+
+.content-box {
+    width: 80%;
+    height: 80vh;
+    margin: 0 auto;
+    background-color: #353f4c;
+    box-sizing: border-box;
+    padding: 20px;
+    color: aliceblue;
+    border-radius: 10px;
+    overflow: auto;
+    scrollbar-width: none; /* firefox */
+    -ms-overflow-style: none; /* internet explorer and edge */
+    scroll-behavior: smooth;
+}
+
+.content {
+    height: 800px;
+  }
+
+.content h2{
+    text-align: center;
+    font-size: 50px;
+    font-family: rubik;
+}
+
+::-webkit-scrollbar{
+    display: none; /* chrome */
+}
+
+.footer{
+    margin-top: 3vh;
+    float: right;
+    margin-right: 5vh;
+    background-color: #353f4c;
+    border-radius: 10px;
+}
+
+.footer a{
+    font-size: 40px;
+    margin: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer a:hover{
+    opacity: 0.7;
+}
+
+.team-member{
+    text-align: center;
+}
+
+.job-opportunity button{
+    background-color: green;
+    color: white;
+    font-size: 40px;
+}
+
+form {
+    margin: 0 auto;
+    width: 40%;
+}
+.stack {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.stack input {
+    width: 100%;
+}
+
+.birthday input {
+    width: 155%;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+select, input, button {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+form button{
+    background-color: green;
+    color: white;
+    font-size: 40px;
+}
+
+@media only screen and (max-width: 1400px) {
+    .stack{
+        display: contents;
+    }
+
+    .birthday input{
+        width: 100%;
+    }
+  }

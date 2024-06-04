@@ -7,7 +7,9 @@ body {
 }
 
 p {
-    font-size: 25px;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 
@@ -116,6 +118,15 @@ form {
     width: 155%;
 }
 
+.job-opportunity{
+    font-size: 25px;
+    text-align: center;
+}
+
+.job-opportunity button{
+    width: 50%;
+}
+
 label {
     display: block;
     margin-bottom: 5px;
@@ -161,10 +172,19 @@ form button{
     .header-box a{
         font-size: 10px;
     }
+
 }
 
 @media only screen and (max-width: 700px) {
     .header-box a{
         font-size: 8px;
+    }
+    p{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 15px;
+    }
+    .content-box h2{
+        font-size: 40px;
     }
 }

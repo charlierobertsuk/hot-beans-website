@@ -19,8 +19,8 @@ p {
 
 
 .header-box {
-    width: 80%;
-    height: 50px;
+    width: 90%;
+    height: 60px;
     margin: 0 auto;
     background-color: #353f4c;
     box-sizing: border-box;
@@ -49,8 +49,8 @@ p {
 }
 
 .content-box {
-    width: 80%;
-    height: 80vh;
+    width: 90%;
+    height: 85vh;
     margin: 0 auto;
     background-color: #353f4c;
     box-sizing: border-box;

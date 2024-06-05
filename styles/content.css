@@ -12,6 +12,11 @@ p {
     margin-right: 100px;
 }
 
+.content h3{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
 
 .header-box {
     width: 80%;
@@ -72,15 +77,11 @@ p {
     display: none; /* chrome */
 }
 
-.footer{
-    margin-top: 3vh;
-    float: right;
-    margin-right: 5vh;
-    background-color: #353f4c;
-    border-radius: 10px;
+.social-media{
+    margin-left: 100px;
 }
 
-.footer a{
+.social-media a{
     font-size: 40px;
     margin: 10px;
     text-decoration: none;
@@ -179,5 +180,14 @@ form button{
     }
     .content-box h2{
         font-size: 40px;
+    }
+
+    .social-media{
+        margin-left: 10px;
+    }
+
+    .content h3{
+        margin-left: 10px;
+        margin-right: 10px;
     }
 }

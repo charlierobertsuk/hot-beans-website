@@ -78,19 +78,10 @@ const massMark = 78;
 const heightMark = 1.69;
 const massJohn = 92;
 const heightJohn = 1.95;
-const mass, height;
 
+const BMImark = massMark / heightMark ** 2;
+const BMIjohn = massJohn / heightJohn ** 2;
+console.log(BMImark, BMIjohn)
 
-mass = massMark;
-height = heightMark;
-let BMI = mass / (height * height);
-
-console.log('Mark: '+ BMI);
-
-mass = massJohn;
-height = heightJohn;
-BMI = mass / (height * height);
-
-console.log('Mark: '+ BMI);
  */
 

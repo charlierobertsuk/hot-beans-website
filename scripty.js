@@ -71,9 +71,10 @@ Comparison Operators
 */
 
 
-/* 
+
 //BMI calculator
 
+/* 
 const massMark = 78;
 const heightMark = 1.69;
 const massJohn = 92;
@@ -82,7 +83,18 @@ const heightJohn = 1.95;
 const BMImark = massMark / heightMark ** 2;
 const BMIjohn = massJohn / heightJohn ** 2;
 const higherBMI = BMImark > BMIjohn;
-console.log(BMImark, BMIjohn, higherBMI)
-
+console.log(BMImark, BMIjohn, higherBMI);
  */
+
+
+/* 
+//The f string of js
+const Name = "Charlie";
+console.log( `Hi I am ${Name}`);
+
+// use backsticks so can always use both other quotations (` `)
+// \n still works!!
+// backsticks enable multiline writing without \n
+ */
+
 

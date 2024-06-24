@@ -125,7 +125,109 @@ console.log(`You were born in the ${century} century`);
  */
 
 
-//datatypes - part 2
+/* 
+//type conversion
 
 const inputYear = `2007`;
-console.log(inputYear + 10)
+console.log(inputYear + 10); //output: 200710
+console.log(Number(inputYear) + 10); //output: 2017
+console.log(Number(`Charlie`)); //output: NaN (Not a Number)
+console.log(typeof NaN); //output: number (NaN is just an invalid number)
+console.log(String(23)); //output: 23
+console.log(typeof(String(23))); //output: string
+console.log(typeof(String(23), 23)); //output: number
+console.log((String(23)) + 23); //output 2323
+ */
+
+/* 
+// type coercion
+
+console.log('I am ' + '23' + ' years old');
+console.log('I am ' + 23 + ' years old'); // coercion is forcing the number as a string when concatanated
+console.log('23' - '10' - 3); //output: 10 (as a number)
+console.log('23' * '2'); //output: 46 (gives a number)
+
+let n = '1' + 1; // 11
+n = n - 1; // 11 - 1
+console.log(n) // output: 10
+
+// 2+3+4+'5' = "95"
+// '10' - '4' - '3' = 3
+// '10' - '4' - '3' - 2 + '5' = "15"
+
+ */
+
+
+
+/* 
+// truey ans falsey values - boolean
+
+// 5 falsy values: 0, '', undefined, null, NaN
+// everything else is a truthy value
+
+console.log(Boolean(0)); // output: false
+console.log(Boolean('')); // output: false
+console.log(Boolean(undefined)); // output: false
+console.log(Boolean(null)); // output: false
+console.log(Boolean(NaN)); // output: false
+console.log(Boolean(16)); // output: true
+console.log(Boolean('Charlie')); // output: true
+
+const money = 0; // false (if money > 0 then will be true)
+if (money) {
+    console.log("Don't spend it all!"); // true
+} else {
+    console.log('Get a job!'); // false
+}
+
+let height; // a way to check if has value - has no given value as output: :( height is not defined
+if (height) {
+    console.log(`YAY!! height is defined`);
+} else {
+    console.log(`:( height is not defined`);
+}
+ */
+
+/* 
+//equality operators, == vs ===
+const age = 18
+if (age === 18) console.log(`Woah, you are newly an adult :D`); //true
+// === is only true or false - is a strict operator as it is only t or f
+// 18 === 18 is true & 18 === 19 is false
+// == is the loose equality operator - it does type correction
+if (age === '18') console.log(`Woah, you are newly an adult :D`);// true
+// '18' == 18 is true
+
+const fav = prompt(`fav number? `); //promt is input
+console.log(fav);
+console.log(typeof fav);
+
+if (fav === 23) {
+    console.log("waoh i like 23");
+} else if (fav === 9) {
+    console.log(`9 sucks`);
+}
+
+if(fav !== 23) console.log (`why`);
+
+ */
+
+
+//boolean logic
+// AND, OR, NOT
+
+const hasLicense = true;
+const goodVision = true;
+
+console.log(hasLicense && goodVision); // && is AND
+console.log(hasLicense || goodVision); // || is OR
+console.log(!hasLicense) // ! is NOT
+console.log(!goodVision) // ! is NOT
+
+const shouldDrive = hasLicense && goodVision;
+
+if (shouldDrive) {
+    console.log(`Can drive!`)
+} else {
+    console.log(`Can't drive`)
+}

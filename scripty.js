@@ -81,7 +81,8 @@ const heightJohn = 1.95;
 
 const BMImark = massMark / heightMark ** 2;
 const BMIjohn = massJohn / heightJohn ** 2;
-console.log(BMImark, BMIjohn)
+const higherBMI = BMImark > BMIjohn;
+console.log(BMImark, BMIjohn, higherBMI)
 
  */
 

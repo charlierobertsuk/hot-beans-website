@@ -100,10 +100,12 @@ console.log( `Hi I am ${Name}`);
 
 //if statements
 
+
+/* 
 const age = 16;
 const ageMinimum = age >= 17;
 
-if (ageMinimum /* age >= 18 */) {
+if (ageMinimum) {
     console.log(`Can get drivers licence!`);
 } else {
     const yearsLeft = 17 - age;
@@ -119,3 +121,11 @@ if(birthYear <= 2000) {
 }
 console.log(century)
 console.log(`You were born in the ${century} century`);
+
+ */
+
+
+//datatypes - part 2
+
+const inputYear = `2007`;
+console.log(inputYear + 10)

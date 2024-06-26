@@ -213,6 +213,8 @@ if(fav !== 23) console.log (`why`);
  */
 
 
+/* 
+
 //boolean logic
 // AND, OR, NOT
 
@@ -231,3 +233,110 @@ if (shouldDrive) {
 } else {
     console.log(`Can't drive`)
 }
+
+ */
+
+// NOTES BEFORE THIS COMMENT HAVE BEEN TAKEN
+
+/* 
+//Average score calculator
+
+const scoreDolphins = (96 + 108 + 89) /3;
+const scoreKoalas = (88 + 91 + 110) /3;
+
+if (scoreDolphins > scoreKoalas) {
+    console.log("Dolphins win the trophy");
+} else if (scoreKoalas > scoreDolphins) {
+    console.log("Koalas win the trophy");
+} else if (scoreDolphins === scoreKoalas) {
+    console.log("Both win the trophy");
+}
+
+ */
+
+
+/* 
+
+//The switch statement
+const day = "tuesday";
+
+switch(day) { // basicly if else yet completely different
+    case "monday": // day === 'monday' (which is true)
+        console.log("Hey! It seems to be monday!");
+        console.log(4 + " is a number");
+        console.log(`on ${day}, f-strings are weird in js`);
+        break;
+    case "tuesday":
+        console.log("Crap, its tuesday");
+        break;
+    case "wednesday": // executes code below for both cases
+    case "thursday":
+        console.log("Wednesday and Thursday are basicly the same day");
+        console.log("woah");
+        break;
+    default:
+        console.log("Only monday to thursday exist in this dimention");
+        break;
+}
+
+//The switch statement but as an if statement
+
+if (day === "monday") {
+    console.log("Hey! It seems to be monday!");
+    console.log(4 + " is a number");
+    console.log(`on ${day}, f-strings are weird in js`);
+} else if (day === "tuesday") {
+    console.log("Crap, its tuesday");
+} else if (day === "wednesday"  || day === "thursday") {
+    console.log("Wednesday and Thursday are basicly the same day");
+    console.log("woah");
+} else {
+    console.log("Only monday to thursday exist in this dimention");
+}
+ */
+
+
+/* 
+// Statements and expressions
+// Expressions are values in js
+// 3 + 4 is an expression
+// 235 is an expression
+// true && false && !false is an expression
+// an if, else, switch statement is a statement
+// you can fine expressions in statements
+// console.log(`I'm ${3000 - 2980} years old`); that value has to be an expression
+
+
+
+
+// The conditional operator
+const age = 18;
+
+age >= 18 ? console.log("Has valid ID") : console.log ("No valid ID");
+
+// this is a super teeny tiny if else statement
+
+const conditionalValidID = age >= 18 ? "Has valid ID" : "No valid ID";
+console.log(conditionalValidID);
+
+//as an if statement
+
+let ifValidID;
+if (age >= 18) {
+    ifValidID = "Has valid ID";
+} else {
+    ifValidID = "No valid ID";
+}
+console.log(ifValidID);
+
+//super cool and will come in handy in future
+console.log(`ID checker: ${age >= 18 ? "Has valid ID" : "No valid ID"}`); //output: ID checker: Has valid ID
+
+
+// tip calculator
+const bill = 275;
+const tip = bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+console.log(`Bill cost: £${bill}\nTip cost: £${tip}\nTotal cost: £${bill + tip}`);
+
+ */
+

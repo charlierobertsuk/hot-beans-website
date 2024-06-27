@@ -76,17 +76,17 @@ Comparison Operators
 
 //BMI calculator
 
-/* 
-const massMark = 78;
-const heightMark = 1.69;
+/*
+const massEllie = 65;
+const heightEllie = 1.69;
 const massJohn = 92;
 const heightJohn = 1.95;
 
-const BMImark = massMark / heightMark ** 2;
+const BMIEllie = massEllie / heightEllie ** 2;
 const BMIjohn = massJohn / heightJohn ** 2;
-const higherBMI = BMImark > BMIjohn;
-console.log(BMImark, BMIjohn, higherBMI);
- */
+const higherBMI = BMIEllie > BMIjohn;
+console.log(BMIEllie, BMIjohn, higherBMI);
+*/
 
 
 /* 
@@ -298,7 +298,6 @@ if (day === "monday") {
  */
 
 
-/* 
 // Statements and expressions
 // Expressions are values in js
 // 3 + 4 is an expression
@@ -309,9 +308,10 @@ if (day === "monday") {
 // console.log(`I'm ${3000 - 2980} years old`); that value has to be an expression
 
 
-
+/*
 
 // The conditional operator
+
 const age = 18;
 
 age >= 18 ? console.log("Has valid ID") : console.log ("No valid ID");
@@ -336,11 +336,11 @@ console.log(`ID checker: ${age >= 18 ? "Has valid ID" : "No valid ID"}`); //outp
 
 
 // tip calculator
-const bill = 275;
+const bill = 100;
 const tip = bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
 console.log(`Bill cost: £${bill}\nTip cost: £${tip}\nTotal cost: £${bill + tip}`);
-
- */
+*/
+ 
 
 
 /*
@@ -359,5 +359,29 @@ if (hasDriversLicense) console.log('I can drive!');
 
 console.log(hasDriversLicense);
 
+
 */
 
+
+//functions
+function logger(){
+    console.log('Jerry stole my bread :(');
+}
+
+//calling / running / invoking the function
+logger();
+
+
+function fruitProcessor(grapes, oranges, bannana , plumb) {
+    console.log(grapes, oranges, bannana, plumb);
+    const juice = `Juice with ${grapes} grapes and ${oranges} oranges and ${bannana} bannanas and ${plumb} plumbs`;
+    return juice;
+}
+
+const appleJuice = fruitProcessor(25, 0, 0, 0);
+console.log(appleJuice);
+console.log(fruitProcessor(0, 2, 0, 0));
+console.log(fruitProcessor(0, 1, 8, 0));
+
+const smoothie = fruitProcessor(133, 2, 4, 3)
+console.log(`Smoothie: ${smoothie}`)

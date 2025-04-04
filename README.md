@@ -3,7 +3,7 @@
 ## School IT Coursework Project
 
 ### Project Overview
-This repository contains the coursework submission for an IT web development project. The website represents "Hot Beans Web Development," a fictional web development company that showcases their team, services, job opportunities, and more.
+This repository contains the coursework submission for my IT web development project. The website represents "Hot Beans Web Development," a fictional web development company that showcases their team, services, job opportunities, and more.
 
 ### Live Website
 The project is hosted and can be viewed at:
